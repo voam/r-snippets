@@ -1,0 +1,16 @@
+---
+title: "Person Information"
+output: pdf_document
+params:
+    row: NA
+---
+
+# Personal Information
+
+Name: `r params$row$Name`
+
+Name2: `r params$row[[1]]`
+
+Age: `r params$row$Age`
+
+City: `r params$row$City`
